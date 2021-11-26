@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
+import PageHeading from "../UI/Page Heading/PageHeading";
 
 const AboutUs = () => {
   return (
     <div className="container-fluid p-0">
-      <div className="container">
-        About Us Page
-      </div>
+      <PageHeading title="Meet Our Team"/>
     </div>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;
