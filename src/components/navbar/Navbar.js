@@ -28,44 +28,44 @@ const Navbar = () => {
           <div className={styles.menu}>
             <ul>
               <li>
-                <Link to="/">
-                  <a>Home</a>
+                <Link to="/" style={{textDecoration:'none'}}>
+                  <p>Home</p>
                 </Link>
               </li>
               <li>
-                <Link to="/about">
-                  <a>About Us</a>
+                <Link to="/about" style={{textDecoration:'none'}} >
+                  <p>About Us</p>
                 </Link>
               </li>
               <li className={styles.dropdown}>
-                <Link to="/class9">
-                  <a className={styles.dropbtn}>Select Class</a>
+                <Link to="/class9" style={{textDecoration:'none'}} >
+                  <p className={styles.dropbtn}>Select Class</p>
                   <div className={styles["dropdown-content"]}>
-                    <li href="#">Class IX</li>
-                    <li href="#">Class X</li>
-                    <li href="#">Class XI</li>
-                    <li href="#">Class XII</li>
+                    <p href="#">Class IX</p>
+                    <p href="#">Class X</p>
+                    <p href="#">Class XI</p>
+                    <p href="#">Class XII</p>
                   </div>
                 </Link>
               </li>
               <li className={styles.dropdown}>
-              <Link to="/scholarship">
-                  <a className={styles.dropbtn}>Scholarship Tests</a>
+              <Link to="/scholarship" style={{textDecoration:'none'}} >
+                  <p className={styles.dropbtn}>Scholarship Tests</p>
                   <div className={styles["dropdown-content"]}>
-                    <li href="#">Beginner</li>
-                    <li href="#">Intermediate</li>
-                    <li href="#">Advanced</li>
+                    <p href="#">Beginner</p>
+                    <p href="#">Intermediate</p>
+                    <p href="#">Advanced</p>
                   </div>
                 </Link>
               </li>
               <li>
-                <Link to="/faqs">
-                  <a>FAQs</a>
+                <Link to="/faqs" style={{textDecoration:'none'}} >
+                  <p>FAQs</p>
                 </Link>
               </li>
             </ul>
           </div>
-          <Link className={styles.button} to="/contact">
+          <Link className={styles.button}  style={{textDecoration:'none'}} to="/contact">
             Contact Us
           </Link>
         </div>

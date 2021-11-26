@@ -37,19 +37,20 @@ optional color #7AC417
   text-decoration: none;
   list-style: none;
   margin-top: 15px;
+  text-align: center;
 }
 
-.menu ul li a {
-  text-decoration: none;
+.menu ul li p {
+  text-decoration: none !important;
   color: #424242;
-  margin: 2px 15px;
-  font-size: 18px;
+  margin: 2px 20px;
+  font-size: 19px;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 
-.menu ul li a:hover{
+.menu ul li p:hover{
   cursor: pointer;
   color: #FBA626 !important;
 }
@@ -83,7 +84,7 @@ optional color #7AC417
   z-index: 1;
 }
 
-.dropdown-content li {
+.dropdown-content p {
   color: white !important;
   padding: 10px 10px;
   text-decoration: none;
@@ -91,7 +92,7 @@ optional color #7AC417
   transition: all 0.2s ease;
 }
 
-.dropdown-content li:hover {
+.dropdown-content p:hover {
   color: #FBA626 !important;
 }
 
